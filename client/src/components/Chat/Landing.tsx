@@ -126,6 +126,9 @@ export default function Landing({ Header }: { Header?: ReactNode }) {
             {getWelcomeMessage()}
           </h2>
         )}
+        <h2 className="mb-5 max-w-[75vh] px-12 text-center text-sm font-medium dark:text-slate-300 md:px-0 md:text-sm">
+          我可以帮助你搜索、答疑、写作, 请把你的任务交给我吧 ~
+        </h2>
         <div className="mt-8 flex flex-wrap justify-center gap-3 px-4">
           {conversation_starters.length > 0 &&
             conversation_starters
